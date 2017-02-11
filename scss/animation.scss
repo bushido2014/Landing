@@ -1,0 +1,11 @@
+.descr-text h1{
+//@include mui-animation(fade(in));
+//animation-duration: 1s;
+@include mui-animation(fade(0, 1), zoom);
+	animation-duration: 1s;
+}
+.about h2 {
+	//@include mui-animation(spin);
+	//animation-duration: 1s;
+	//@include mui-fade(in,  0, 1); 
+}
