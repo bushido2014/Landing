@@ -115,6 +115,25 @@ nav {
 
 }
 
+.off-canvas {
+  background-color: #1d2127;
+  .menu {
+    
+      li { 
+        a {
+          color: #abb4be;
+          text-align: center;
+          text-transform: uppercase;
+          transition: background-color 0.3s ease;
+          &:hover {
+            background-color: #282d36;
+          }
+        }
+      }
+    
+  }
+}
+
 header,section  {
     position: relative;
 }

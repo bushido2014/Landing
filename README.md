@@ -1,6 +1,6 @@
 # Foundation for Sites Template
 
-Simple Landing Page whith page scroll section
+Simple Landing Page whith page scroll section and with Off-canvas menu
 
 ## Installation
 
@@ -34,4 +34,5 @@ npm install
 bower install
 ```
 
-Finally, run `npm start` to run the Sass compiler. It will re-run every time you save a Sass file.
+Finally, run `npm start` or  `foundation watch` to run the Sass compiler. 
+It will re-run every time you save a Sass file.
